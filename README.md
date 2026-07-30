@@ -1,6 +1,6 @@
 # Hyper Cal
 
-https://aryanp123.github.io/hyper-cal/
+hyper-cal.com
 
 **A free Hyperliquid PnL calendar that shows what you actually made — after fees and funding — in your timezone.**
 
