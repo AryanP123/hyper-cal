@@ -1,5 +1,7 @@
 # Hyper Cal
 
+https://aryanp123.github.io/hyper-cal/
+
 **A free Hyperliquid PnL calendar that shows what you actually made — after fees and funding — in your timezone.**
 
 Paste any wallet address. No login. No API key. No account.
@@ -40,31 +42,6 @@ Hyper Cal fixes both: **net PnL**, **your timezone**, **zero friction**.
 - **Day drill-down** — realized, fees, funding, and individual fills
 - **Phone-friendly** — bookmark `?wallet=0x…` and open it like an app
 - **Static & private** — runs in your browser; we don’t store wallets on a server
-
----
-
-## Try it
-
-Once deployed on GitHub Pages:
-
-```text
-https://<your-username>.github.io/hyper-cal/
-```
-
-Jump straight to a wallet:
-
-```text
-https://<your-username>.github.io/hyper-cal/?wallet=0xYourAddress
-```
-
-Locally:
-
-```bash
-npm install
-npm run dev
-```
-
-Then open `http://localhost:5173/hyper-cal/`.
 
 ---
 
