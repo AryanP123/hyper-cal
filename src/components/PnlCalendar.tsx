@@ -15,6 +15,7 @@ type Props = {
   monthIndex: number
   timeZone: string
   days: Map<string, DayPnl>
+  monthNet: number
   maxAbs: number
   selectedDate: string | null
   onSelectDate: (date: string) => void
@@ -37,6 +38,7 @@ export function PnlCalendar({
   monthIndex,
   timeZone,
   days,
+  monthNet,
   maxAbs,
   selectedDate,
   onSelectDate,
@@ -61,6 +63,12 @@ export function PnlCalendar({
 
   return (
     <section className="calendar">
+      <div className="month-net-box">
+        <span className="month-net-label">Month total net</span>
+        <span className={`month-net-value mono ${monthNet >= 0 ? 'pos' : 'neg'}`}>
+          {formatMoney(monthNet)}
+        </span>
+      </div>
       <header className="calendar-header">
         <button
           type="button"

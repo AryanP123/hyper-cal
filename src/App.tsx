@@ -152,6 +152,7 @@ export default function App() {
           monthIndex={monthIndex}
           timeZone={timeZone}
           days={days}
+          monthNet={stats.net}
           maxAbs={stats.maxAbs}
           selectedDate={selectedDate}
           onSelectDate={setSelectedDate}

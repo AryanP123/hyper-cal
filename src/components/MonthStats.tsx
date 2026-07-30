@@ -9,12 +9,6 @@ export function MonthStats({ stats }: Props) {
   return (
     <div className="month-stats">
       <div className="stat">
-        <span className="stat-label">Month net</span>
-        <span className={`stat-value mono ${stats.net >= 0 ? 'pos' : 'neg'}`}>
-          {formatMoney(stats.net)}
-        </span>
-      </div>
-      <div className="stat">
         <span className="stat-label">Before fees</span>
         <span className={`stat-value mono ${stats.realizedPnl >= 0 ? 'pos' : 'neg'}`}>
           {formatMoney(stats.realizedPnl)}
