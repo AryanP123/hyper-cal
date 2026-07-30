@@ -1,6 +1,6 @@
 # Hyper Cal
 
-hyper-cal.com
+[hyper-cal.com](https://hyper-cal.com/)
 
 **A free Hyperliquid PnL calendar that shows what you actually made — after fees and funding — in your timezone.**
 
